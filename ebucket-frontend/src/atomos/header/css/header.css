@@ -57,6 +57,31 @@
     margin-left: 20px;
 }
 
+._hamburgerImg{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+._sidemenu {
+    display: none;
+    background:#192734;
+    position: absolute;
+    top: 64px;
+}
+
+._sidemenu a:hover {
+    color: #adacac;
+}
+
+@media (max-width: 766px)
+{
+    ._logo {
+        margin-top: -58px;
+        margin-left: 40%;
+    }
+}
+
 @media (max-width: 920px)
 {
     ._font h1 {
@@ -66,4 +91,5 @@
     ._font h5 {
         font-size: 1rem;
     }
+
 }
