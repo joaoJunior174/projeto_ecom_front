@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+._title{
+
+}
+
+._description{
+
+}
+
+._redirect {
+    border-radius: 30px;
+}
+
+._redirect a {
+    display: inline-block;
+    color: #132533;
+    background: #FFDB47;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    padding: 13px 25px;
+    box-shadow: 0 .5rem 1rem -0.25rem rgba(0,0,0,0.12);
+    text-decoration: none;
+
+}
+
+._redirect a:hover {
+    transition: all .3s cubic-bezier(.25, .2, .45, 1);
+    background: #e5b809;
+}
+
+._font h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    text-shadow: 5px 5px 0 rgba(20,36,50,0.1);
+    font-family: 'Josefin Sans', cursive;
+    line-height: 140%;
+
+
+}
+
+._font h5 {
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-family: 'Josefin Sans', cursive;
+    margin: 10px 0;
+}
+
+._logo {
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+@media (max-width: 920px)
+{
+    ._font h1 {
+        font-size: 2rem;
+    }
+
+    ._font h5 {
+        font-size: 1rem;
+    }
+}

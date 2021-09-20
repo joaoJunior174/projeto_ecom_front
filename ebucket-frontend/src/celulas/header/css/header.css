@@ -1,0 +1,59 @@
+._retangulo {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    right: 0px;
+    height: 42em;
+    z-index: -1;
+    transform: skewY(-1.5deg);
+    background: #0038e2;
+    background: -webkit-linear-gradient(to top, #0038e2, #2da7ff);
+    background: linear-gradient(to top, #0038e2, #2da7ff);
+}
+
+._container {
+    height: 35em;
+    padding: 0px;
+}
+
+._menu {
+    height: 4em;
+    background: #192734;
+}
+
+._links {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+._menu a {
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+    font-family: 'Josefin Sans', cursive;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+._menu a:hover {
+    color: #adacac;
+}
+
+._wrap {
+    height: 70%;
+}
+
+._mobileMenu {
+    display: none;
+}
+
+@media (max-width: 682px)
+{
+    ._links {
+        display: none;
+    }
+}
+
+
+
+
