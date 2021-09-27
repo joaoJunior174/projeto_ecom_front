@@ -19,10 +19,13 @@
 ._menu {
     height: 4em;
     background: #192734;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 ._links {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 

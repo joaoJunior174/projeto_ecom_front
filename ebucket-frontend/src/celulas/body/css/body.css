@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+._grid {
+    height: 300px;
+    position: relative;
+    top: 90px;
+}
+
+._grid h2 {
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Josefin Sans', cursive;
+}
+
+._conteudoCentral {
+    background: #EBF6FF;
+}
+
+._middleImage {
+    width: 40px;
+    height: 40px;
+}
+
+._conteudoCentralItens {
+    padding: 20px;
+    margin-left: 60px;
+}
+
+._conteudoCentralItens h5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+._conteudoCentralItens a {
+    color: black;
+    text-decoration: none;
+}
+
+._conteudoCentralItens img {
+    left:45%;
+    position: relative;
+}

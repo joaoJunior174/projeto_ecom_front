@@ -1,0 +1,16 @@
+._paragraphDiv {
+    padding-right: 50px;
+}
+._paragraphDiv h3 {
+    text-align: center;
+}
+._paragraphDiv p {
+    text-align: justify;
+}
+@media (max-width: 768px)
+{
+    ._paragraphDiv {
+       padding-right: 0px;
+       width: 60%;
+    }
+}
